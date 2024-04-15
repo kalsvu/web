@@ -9,7 +9,7 @@ class MainController
 
 {
     #[Route('/test')]
-    public function homepage()
+    public function homepage() : Response
     {
         return new Response('<strong>Startshop</strong>: your monopoly-blusting option for Starship parts!');
     }
